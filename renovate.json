@@ -1,5 +1,8 @@
 {
-  "extends": [":dependencyDashboard"],
+  "extends": [
+    ":dependencyDashboard",
+    "config:recommended",
+  ],
   "additionalBranchPrefix": "{{parentDir}}-",
   "ignorePresets": ["group:monorepos", "group:recommended"]
 }
