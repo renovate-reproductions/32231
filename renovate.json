@@ -3,6 +3,5 @@
     ":dependencyDashboard",
     "config:recommended",
   ],
-  "additionalBranchPrefix": "{{parentDir}}-",
-  "ignorePresets": ["group:monorepos", "group:recommended"]
+  "additionalBranchPrefix": "{{packageFileDir}}-",
 }
